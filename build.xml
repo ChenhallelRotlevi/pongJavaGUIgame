@@ -7,7 +7,7 @@
     <!-- Compile all java files under `src`, and export .class files into `bin` -->
     <target name="compile">
         <mkdir dir="bin"/>
-        <javac classpath="${classpath}" srcdir="src" destdir="bin" includeantruntime="false"/>
+        <javac classpath="${classpath}" srcdir="src" destdir="bin" includeantruntime="false" source="21" target="21"/>
     </target>
 
     <target name="clean">
