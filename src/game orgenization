@@ -1,0 +1,37 @@
+src/
+│
+├── ass5/                         ← Main launcher class
+│   └── Ass5Game.java
+│
+├── game/                         ← Core game logic
+│   ├── Game.java
+│   ├── GameEnvironment.java
+│   └── Counter.java
+│
+├── game.objects/                ← Game objects (sprites, ball, block, paddle)
+│   ├── Ball.java
+│   ├── Block.java
+│   ├── Paddle.java
+│   ├── Velocity.java
+│   └── ScoreIndicator.java
+│
+├── game.listeners/              ← Hit listeners & notifiers
+│   ├── HitListener.java
+│   ├── HitNotifier.java
+│   ├── BlockRemover.java
+│   ├── BallRemover.java
+│   ├── ScoreTrackingListener.java
+│   └── PrintingHitListener.java
+│
+├── game.collision/              ← Collision detection
+│   ├── Collidable.java
+│   ├── CollisionInfo.java
+│   └── Sprite.java
+│
+├── game.sprites/                ← Sprite collection
+│   └── SpriteCollection.java
+│
+└── geometry/                    ← Geometry primitives
+    ├── Point.java
+    ├── Line.java
+    └── Rectangle.java
